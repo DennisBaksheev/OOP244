@@ -1,0 +1,105 @@
+Milestone 4, Car and Motorcycle:
+Car Test:
+
+Invalid object printout:
+Invalid Car Object
+
+Testing Console Entry, Enter the following:
+abc123 <ENTER>
+Chevy Volt <ENTER>
+yes <ENTER>
+y <ENTER>
+
+Car information entry
+Enter License Plate Number: abc123
+Enter Make and Model: Chevy Volt
+Carwash while parked? (Y)es/(N)o: yes
+Invalid response, only (Y)es or (N)o are acceptable, retry: y
+
+Comma Separated Values:
+C,0,ABC123,Chevy Volt,1
+
+Console Printout:
+Vehicle type: Car
+Parking Spot Number: N/A
+License Plate: ABC123
+Make and Model: Chevy Volt
+With Carwash
+
+Testing CSV Entry, Enter the following:
+12,GVAA123,Nissan Leaf,0 <ENTER>
+12,GVAA123,Nissan Leaf,0
+
+Comma Separated Values:
+C,12,GVAA123,Nissan Leaf,0
+
+
+Console Printout:
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: GVAA123
+Make and Model: Nissan Leaf
+Without Carwash
+
+Copy of Car after test:
+Vehicle type: Car
+Parking Spot Number: 12
+License Plate: GVAA123
+Make and Model: Nissan Leaf
+Without Carwash
+
+Assigned Car after test:
+C,200,GVAA123,Nissan Leaf,0
+
+Deallocating Vehicle!
+Motorcycle Test:
+
+Invalid object printout:
+Invalid Motorcycle Object
+
+Testing Console Entry, Enter the following:
+ab12 <ENTER>
+Harley Davidson <ENTER>
+yes <ENTER>
+y <ENTER>
+
+Motorcycle information entry
+Enter License Plate Number: ab12
+Enter Make and Model: Harley Davidson
+Does the Motorcycle have a side car? (Y)es/(N)o: yes
+Invalid response, only (Y)es or (N)o are acceptable, retry: y
+
+Comma Separated Values:
+M,0,AB12,Harley Davidson,1
+
+Console Printout:
+Vehicle type: Motorcycle
+Parking Spot Number: N/A
+License Plate: AB12
+Make and Model: Harley Davidson
+With Sidecar
+
+Testing CSV Entry, Enter the following:
+12,AA22,Honda CD80,0 <ENTER>
+12,AA22,Honda CD80,0
+
+Comma Separated Values:
+M,12,AA22,Honda CD80,0
+
+
+Console Printout:
+Vehicle type: Motorcycle
+Parking Spot Number: 12
+License Plate: AA22
+Make and Model: Honda CD80
+
+Copy of Motorcycle after test:
+Vehicle type: Motorcycle
+Parking Spot Number: 12
+License Plate: AA22
+Make and Model: Honda CD80
+
+Assigned Motorcycle after test:
+M,400,AA22,Honda CD80,0
+
+Deallocating Vehicle!
