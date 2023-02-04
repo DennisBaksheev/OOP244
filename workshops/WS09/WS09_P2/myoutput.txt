@@ -1,0 +1,12 @@
+C:\Users\denni\OneDrive\Documents\code\OOP244\WS09\WS09P2\cmake-build-debug\WS09P2.exe
+**
+File: dcwrLittle.html
+==================================================
+<html><head><title>Derived Classes and Resources</title></head>
+<body>
+<h1>Derived Classes and Resources</h1>
+</body>
+</html>
+==================================================
+
+Process finished with exit code -1073740940 (0xC0000374)
