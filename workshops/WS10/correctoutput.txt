@@ -1,0 +1,15 @@
+Searching for Tesla cars:
+3 matches found:
+1: GVFGHI Tesla Model S
+2: GVDGHI Tesla Model 3
+3: GVDEFG Tesla Model X
+Searching for students with "Simpson" in their name
+2 matches found:
+1: 23456 Lisa Simpson
+2: 12345 Bart Simpson
+Searching for employees with "Sim" in their name
+2 matches found:
+1: 122345 Mindy Simmons, 65432.44
+2: 364567 Homer Simpson, 55432.11
+Searching for employees with "Jack" in their name
+No matches found!
