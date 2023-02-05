@@ -1,0 +1,110 @@
+Using bool conversion overload and operator ~ to print the apartments 
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       112.11 |
+| 002 | 2222 |       223.22 |
+| 003 | Invld|  Apartment   |
+| 004 | 4444 |      4435.44 |
+| 005 | Invld|  Apartment   |
+| 006 | Invld|  Apartment   |
+| 007 | 7777 |       788.77 |
++-----+------+--------------+
+Charging apartment #1 $50.02 using += operator:
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       162.13 |
++-----+------+--------------+
+Deducting $100.01 from apartment #2 using -= operator:
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 2222 |       123.21 |
++-----+------+--------------+
+Deducting $5555.55 from apartment #4 using -= operator (fail):
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 4444 |      4435.44 |
++-----+------+--------------+
+Adding and deducting negative amounts on apartment #4 (fail):
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 4444 |      4435.44 |
++-----+------+--------------+
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 4444 |      4435.44 |
++-----+------+--------------+
+Displaying first two departments: 
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       162.13 |
+| 002 | 2222 |       123.21 |
++-----+------+--------------+
+Moving the balance of apartment 1 to 2:
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |         0.00 |
+| 002 | 2222 |       285.34 |
++-----+------+--------------+
+Moving the balance of apartment 2 to 1:
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       285.34 |
+| 002 | 2222 |         0.00 |
++-----+------+--------------+
+Attempting to move the balance an apartment to itself (fail):
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       285.34 |
++-----+------+--------------+
+Combined balance of apartment 4 and 7 in three different ways:
+5224.21, 5224.21, and 5224.21
+Moving apartments from #1 to #2 using operator=:
+Before: 
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 1111 |       285.34 |
+| 002 | 2222 |         0.00 |
++-----+------+--------------+
+After: 
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 2222 |         0.00 |
+| 002 | 1111 |       285.34 |
++-----+------+--------------+
+Displaying all apartments: 
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | 2222 |         0.00 |
+| 002 | 1111 |       285.34 |
+| 003 | Invld|  Apartment   |
+| 004 | 4444 |      4435.44 |
+| 005 | Invld|  Apartment   |
+| 006 | Invld|  Apartment   |
+| 007 | 7777 |       788.77 |
++-----+------+--------------+
+Changing number of apartment #7:
++-----+------+--------------+
+|ROW# | APT# |    BALANCE   |
++-----+------+--------------+
+| 001 | Invld|  Apartment   |
++-----+------+--------------+
+Display numbers of all the apartments 
+ int conversion operator should be implemented
+2222 1111 -1 4444 -1 -1 -1 
+Display total income balance: 
+ double conversion operator should be used
+0.00 285.34 0.00 4435.44 0.00 0.00 0.00 
+Total of 1 empty apartment(s)
